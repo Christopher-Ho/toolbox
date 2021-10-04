@@ -2,12 +2,13 @@ def linear_search(list, target):
     """
     :param list:
     :param target:
-    :return: intex position of the target if found, else returns None
+    :return: index position of the target if found, else returns None
 
     """
     for i in range(0, len(list)):
         if list[i] == target:
             return i
+
     return None
 
 
